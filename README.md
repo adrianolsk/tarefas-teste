@@ -1,7 +1,11 @@
 # Lista de tarefas
 
+clone ou faça o download deste projeto.
+
 Para rodar o projeto:
-### `npm install`  
+
+### `npm install`
+
 ### `npm start`
 
 Abra [http://localhost:3000](http://localhost:3000) no navegador.
@@ -14,10 +18,14 @@ Uma lista de tarefas simples usando uma api REST.
 
 - Lista de tarefas vindas da api
 - Permitir adicionar uma nova tarefa
-- Checkbox/Botão para completar a tarefa
+- Checkbox/Botão para completar/descompletar a tarefa
 - Botão para excluir a tarefa
 
-_Obs_: Não é necessário terminar todas as funcionalidades, o layout da aplicação não é importante, o foco é demonstrar conhecimento de `React` e `REST`
+_Obs:_
+
+- Não é necessário editar o titulo da tarefa.
+- Não é necessário terminar todas as funcionalidades
+- O layout da aplicação não é importante, o foco é demonstrar conhecimento de `React` e `REST`
 
 # API
 
@@ -117,3 +125,23 @@ Retorno com erro:
 ```
 
 ## GET `/reset` - reseta os dados para o estado inicial
+
+_Dica:_
+
+Para consumir a api você pode utilizar qualquer biblioteca (como o `axios` ou outra), ou pode usar a `Fetch API` que está presente nos browsers mais modernos.
+
+```
+const tarefa = { titulo: 'Comprar pão', completo: false}
+
+fetch("http://urldaapi.com", {
+    method: "POST", // PUT, GET, DELETE
+    body: JSON.stringify(tarefa), // body para POST/PUT
+    headers: {
+      "Content-Type": "application/json"
+    }
+  })
+  .then(result => result.json())
+  .then(result=> {
+      console.log('Retorno da API:', result)
+  });
+```
