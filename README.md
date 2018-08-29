@@ -51,7 +51,7 @@ Dados a serem enviados:
 ```
 {
 	"titulo": "Comprar pão",
-	"completo": false
+	"concluido": false
 }
 ```
 
@@ -60,7 +60,7 @@ Retorno:
 ```
 {
     "titulo": "Comprar pão",
-    "completo": false,
+    "concluido": false,
     "id": "65997d30-eabb-4300-8b5f-25ad64951d1e"
 }
 ```
@@ -74,7 +74,7 @@ Dados a serem enviados:
 ```
 {
 	"titulo": "Comprar leite",
-	"completo": true
+	"concluido": true
 }
 ```
 
@@ -107,7 +107,7 @@ Retorno com sucesso:
 }
 ```
 
-Retorno com sucesso:
+Retorno com erro:
 
 ```
 {
