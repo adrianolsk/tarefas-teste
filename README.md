@@ -1,7 +1,7 @@
 # Lista de tarefas
 
 Para rodar o projeto:
-
+### `npm install`  
 ### `npm start`
 
 Abra [http://localhost:3000](http://localhost:3000) no navegador.
@@ -17,7 +17,7 @@ Uma lista de tarefas simples usando uma api REST.
 - Checkbox/Botão para completar a tarefa
 - Botão para excluir a tarefa
 
-_Obs_: Não é necessário terminar todas as funcionalidades, o importante é demonstrar conhecimento de `React` e `REST`
+_Obs_: Não é necessário terminar todas as funcionalidades, o layout da aplicação não é importante, o foco é demonstrar conhecimento de `React` e `REST`
 
 # API
 
