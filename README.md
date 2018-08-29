@@ -29,7 +29,7 @@ _Obs:_
 
 # API
 
-`url: https://api-ykcnvifmxi.now.sh`
+`url: http://api.xpto.ml/`
 
 _endpoints_:
 
