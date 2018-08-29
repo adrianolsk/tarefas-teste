@@ -65,7 +65,7 @@ Retorno:
 }
 ```
 
-## PUT `/tarefa/id_da_tarefa` - Atualiza os dados da tarefa
+## PUT `/tarefa/{id}` - Atualiza os dados da tarefa
 
 ex: **PUT** `/tarefa/65997d30-eabb-4300-8b5f-25ad64951d1e`
 
@@ -86,7 +86,7 @@ Retorno com sucesso:
 }
 ```
 
-Retorno com sucesso:
+Retorno com erro:
 
 ```
 {
