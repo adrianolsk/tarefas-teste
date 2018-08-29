@@ -21,7 +21,7 @@ _Obs_: Não é necessário terminar todas as funcionalidades, o layout da aplica
 
 # API
 
-`url: https://api-ypanhwncwy.now.sh`
+`url: https://api-ykcnvifmxi.now.sh`
 
 _endpoints_:
 
