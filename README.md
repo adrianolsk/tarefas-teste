@@ -29,7 +29,7 @@ _Obs:_
 
 # API
 
-`url: http://api.xpto.ml:3010/tarefa`
+`url: http://api.xpto.ml/tarefa`
 
 _endpoints_:
 
