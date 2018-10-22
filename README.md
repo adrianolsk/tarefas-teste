@@ -73,9 +73,9 @@ Retorno:
 }
 ```
 
-## PUT `/tarefa/{id}` - Atualiza os dados da tarefa
+## PATCH `/tarefa/{id}` - Atualiza os dados da tarefa
 
-ex: **PUT** `/tarefa/65997d30-eabb-4300-8b5f-25ad64951d1e`
+ex: **PATCH** `/tarefa/65997d30-eabb-4300-8b5f-25ad64951d1e`
 
 Dados a serem enviados:
 
